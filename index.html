@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thanks Subhiksha Akka</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="floating-icons">
+    <span>🐼</span>
+    <span>✨</span>
+    <span>🌸</span>
+    <span>💛</span>
+    <span>🐞</span>
+    <span>🧪</span>
+  </div>
+
+  <header class="hero">
+    <nav class="navbar">
+      <div class="brand">For Subhiksha Akka 💐</div>
+
+      <div class="nav-links">
+        <a href="#message">Message</a>
+        <a href="#memories">Memories</a>
+        <a href="#thanks">Thanks</a>
+      </div>
+    </nav>
+
+    <div class="hero-grid">
+      <section class="hero-text">
+        <p class="pill">A small farewell greeting</p>
+
+        <h1>
+          Thanks for being a wonderful mentor, Subhiksha Akka
+        </h1>
+
+        <p class="hero-subtitle">
+          Your guidance made testing feel simple, interesting, and stress-free.
+          This page is a small thank-you from someone who learned a lot from you.
+        </p>
+
+        <div class="sender-card">
+          <div>
+            <span>From</span>
+            <strong>Manjunadh</strong>
+          </div>
+
+          <div>
+            <span>To</span>
+            <strong>Subhiksha Akka</strong>
+          </div>
+        </div>
+
+        <button class="surprise-btn" onclick="openSurprise()">
+          Click for a Surprise 🎁
+        </button>
+      </section>
+
+      <section class="photo-section">
+        <div class="yellow-blob"></div>
+        <div class="pink-blob"></div>
+
+        <div class="photo-card">
+          <img src="assets/subhiksha.png" alt="Subhiksha Akka" />
+
+          <div class="photo-caption">
+            <span>Thank you for the guidance</span>
+            <strong>Testing Mentor ✨</strong>
+          </div>
+        </div>
+
+        <div class="panda-card">
+          <div class="panda-face">
+            <span class="ear left-ear"></span>
+            <span class="ear right-ear"></span>
+            <span class="eye left-eye"></span>
+            <span class="eye right-eye"></span>
+            <span class="nose"></span>
+            <span class="mouth"></span>
+          </div>
+          <p>Bug-free wishes 🐞</p>
+        </div>
+      </section>
+    </div>
+  </header>
+
+  <main>
+    <section class="section message-section" id="message">
+      <div class="section-heading">
+        <p>My message</p>
+        <h2>Thanks for everything, Akka</h2>
+      </div>
+
+      <article class="letter-card">
+        <p>
+          Thank you so much, Subhiksha Akka, for training me in the testing domain.
+          You explained PRDs like a teacher — honestly, even my college teachers did
+          not explain things that clearly.
+        </p>
+
+        <p>
+          I gained many insights from you, especially from the knowledge you shared
+          and the way you explained JMeter. Working with you was always stress-free,
+          and I felt confident that bugs would not go to production when you were
+          there to guide me.
+        </p>
+
+        <p>
+          The first company is always special, and people like you make it even more
+          special. You helped me not only professionally but personally too. Because
+          of you, I developed a real interest in testing.
+        </p>
+
+        <p>
+          I am not sure how I will handle testing without your guidance in the future,
+          but I will always remember what you taught me. Once again, a big thank you.
+          I wish you all the best for your future. Wherever you are, may you always be
+          happy, peaceful, and chill. 😊
+        </p>
+      </article>
+    </section>
+
+    <section class="section memories-section" id="memories">
+      <div class="section-heading">
+        <p>Why you are special</p>
+        <h2>Things I will always remember</h2>
+      </div>
+
+      <div class="memory-grid">
+        <div class="memory-card">
+          <div class="icon">📘</div>
+          <h3>PRD Explanation</h3>
+          <p>
+            You explained requirements clearly and made complex things easy to understand.
+          </p>
+        </div>
+
+        <div class="memory-card">
+          <div class="icon">⚙️</div>
+          <h3>JMeter Guidance</h3>
+          <p>
+            Your way of teaching JMeter helped me gain confidence in performance testing.
+          </p>
+        </div>
+
+        <div class="memory-card">
+          <div class="icon">🐞</div>
+          <h3>Production Confidence</h3>
+          <p>
+            Working with you gave confidence that bugs would be caught before production.
+          </p>
+        </div>
+
+        <div class="memory-card">
+          <div class="icon">🌼</div>
+          <h3>Personal Support</h3>
+          <p>
+            You helped personally and professionally, and that support means a lot.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quote-section" id="thanks">
+      <div class="quote-box">
+        <span>💛</span>
+        <h2>First company is always special...</h2>
+        <p>
+          ...and people like you make it unforgettable.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="surpriseModal">
+    <div class="modal-content">
+      <button class="close-btn" onclick="closeSurprise()">×</button>
+
+      <div class="modal-emoji">🎉🐼💐</div>
+
+      <h2>We will miss your guidance, Akka!</h2>
+
+      <p>
+        Thank you for teaching, supporting, and making testing interesting.
+        Wishing you happiness, success, and a very chill future ahead.
+      </p>
+
+      <button onclick="closeSurprise()">Thank You ❤️</button>
+    </div>
+  </div>
+
+  <footer>
+    Made with gratitude by Manjunadh ✨
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
